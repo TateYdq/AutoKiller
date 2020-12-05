@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"github.com/TateYdq/AutoKiller/util/tool"
+	"github.com/TateYdq/AutoKiller/util"
 	"os/exec"
 	"github.com/gin-gonic/gin"
 )
@@ -25,5 +25,6 @@ func Test(){
 func main()  {
 	r := gin.Default()
 	r.GET("/ping",util.Pong)
+	r.Run(":8081")
 }
 
