@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="192.168.50.146">
+    <serverData>
+      <paths name="192.168.50.146">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/code/go/src/github.com/TateYdq/Double_Killer" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
